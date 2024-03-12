@@ -34,7 +34,10 @@ export const Conversations = () => {
   };
 
   return (
-    <div key={key} className="conversations-container">
+    <div
+      key={key}
+      className="conversations-container flex flex-row md:flex-col"
+    >
       {loading ? (
         <div className="spinner spinner-primary spinner-xl"></div>
       ) : conversation && !flag ? (

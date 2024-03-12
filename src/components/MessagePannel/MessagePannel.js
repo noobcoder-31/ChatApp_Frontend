@@ -21,8 +21,8 @@ export const MessagePannel = () => {
       {!selectedConversation ? (
         <NoChatSelected />
       ) : (
-        <div className="md:min-w-[450px] flex flex-col w-2/3">
-          <div className="flex bg-opacity-40 px-4 pt-2 mb-1">
+        <div className="md:min-w-[450px] flex flex-col md:w-2/3 h-[460px] md:h-auto overflow-auto">
+          <div className="flex bg-opacity-40 p-0 md:px-4 md:pt-2 mb-1">
             <div className="w-8 m-2">
               <img
                 src={selectedConversation.picture}

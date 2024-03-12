@@ -16,10 +16,12 @@ export const Message = ({ message }) => {
   return (
     <div className={`chat ${chatClassName}`}>
       <div className="chat-image avatar"></div>
-      <div className={`chat-bubble text-white  pb-2 ${bubbleBgColor} ${shake}`}>
+      <div
+        className={`chat-bubble text-white md:pb-2 ${bubbleBgColor} ${shake}`}
+      >
         {message.message}
       </div>
-      <div className="chat-footer opacity-50 text-xs flex gap-1 items-center text-black mb-2 pb-2">
+      <div className="chat-footer opacity-50 text-xs flex gap-1 items-center text-black md:mb-2 pb-2">
         {time}
       </div>
     </div>
