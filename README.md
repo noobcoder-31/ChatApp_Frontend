@@ -1,93 +1,74 @@
-# Screenshots of the project
+# Chat App - MERN Stack
 
-Login Page :
+This project is a real-time chat application built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. The frontend is developed with React.js, while the backend is built with Node.js and Express.js. MongoDB is used as the database to store user information and chat messages.
 
-![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/7c0bcafa-2123-49cd-9381-b5e8013f36ca)
+## Features
 
+1. **User Authentication**: Users can sign up and log in to the application using their email and password.
 
-Chat Page:
+2. **Real-time Messaging**: Users can send and receive messages in real-time using Socket.IO for bidirectional communication between the client and server.
 
-![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/977b79e9-6abb-48d4-92a9-9c33358236ba)
+3. **User Profile**: Each user has a profile page where they can update their personal information, such as name, profile picture, and bio.
 
-Messages:
+4. **Friend Management**: Users can send friend requests to other users and accept or reject incoming requests.
 
-![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/278452aa-f751-4b7d-8b6e-0f1ea9a78923)
+5. **Notifications**: The application sends notifications to users when they receive new messages or friend requests.
 
-Profile:
+## Screenshots
 
-![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/430f6960-0b70-4ba6-b75f-2e3a1c6416ed)
+### Login Page
 
+![Login Page](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/7c0bcafa-2123-49cd-9381-b5e8013f36ca)
 
+The login page allows users to enter their email and password to access the application.
 
+### Chat Page
 
+![Chat Page](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/977b79e9-6abb-48d4-92a9-9c33358236ba)
 
-# Getting Started with Create React App
+The chat page displays the list of active chats on the left-hand side, and the conversation area on the right. Users can start new chats, send messages, and share files from this page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Messages
 
-## Available Scripts
+![Messages](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/278452aa-f751-4b7d-8b6e-0f1ea9a78923)
 
-In the project directory, you can run:
+This screenshot shows the conversation area, where users can see the messages exchanged between them and their friends or groups.
 
-### `npm start`
+### Profile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Profile](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/430f6960-0b70-4ba6-b75f-2e3a1c6416ed)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The profile page allows users to view and update their personal information, such as their name, profile picture, and bio.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository
+2. Install dependencies for both the frontend and backend:
+  - `cd frontend` and run `npm install`
+  - `cd backend` and run `npm install`
+3. Set up the MongoDB database and configure the connection string in the backend
+4. Start the backend server: `cd backend` and run `npm start`
+5. Start the frontend development server: `cd frontend` and run `npm start`
+6. The application should now be running at `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and the available scripts are the same as those provided by Create React App.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend**: React.js, React Router, Axios, Socket.IO-Client
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose, Socket.IO, JSON Web Tokens (JWT)
+- **Database**: MongoDB
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about the technologies used in this project from the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express.js Documentation](https://expressjs.com/)
+- [MongoDB Documentation](https://docs.mongodb.com/)
+- [Socket.IO Documentation](https://socket.io/docs/)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize and enhance the project according to your needs!
