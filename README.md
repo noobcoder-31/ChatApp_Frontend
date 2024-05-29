@@ -1,5 +1,21 @@
 # Screenshoots of the project
+
+Login Page :
+
 ![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/7c0bcafa-2123-49cd-9381-b5e8013f36ca)
+
+
+Chat Page:
+
+![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/977b79e9-6abb-48d4-92a9-9c33358236ba)
+
+Messages:
+
+![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/278452aa-f751-4b7d-8b6e-0f1ea9a78923)
+
+Profile:
+
+![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/430f6960-0b70-4ba6-b75f-2e3a1c6416ed)
 
 
 
