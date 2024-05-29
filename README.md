@@ -1,4 +1,4 @@
-# Screenshoots of the project
+# Screenshots of the project
 
 Login Page :
 
