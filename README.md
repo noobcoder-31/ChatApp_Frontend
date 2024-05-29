@@ -1,3 +1,10 @@
+# Screenshoots of the project
+![image](https://github.com/noobcoder-31/ChatApp_Frontend/assets/114940964/7c0bcafa-2123-49cd-9381-b5e8013f36ca)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
